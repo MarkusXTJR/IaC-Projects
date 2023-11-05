@@ -1,5 +1,11 @@
 When starting a new space you will need to do the following to setup the environment
 
+
+VS Code Extensions
+- Terraform (Anton Kulikov)
+- Github Co-Pilot (Optional)
+- Github Co-Pilot Chat (Optional)
+
 Terraform Setup
 
 Run the below line by line in the bash terminal
