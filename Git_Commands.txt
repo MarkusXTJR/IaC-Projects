@@ -1,0 +1,16 @@
+Git Commands 
+
+git init 
+
+(First CD to the directory you would like to initalise as a local GIT repositry, then perfrom git commit )
+
+git add .
+<.>
+(this will add files to the repositry and stage but does not commit them)
+
+git commit -m "Inital commit"
+(Commits files in staging with "-m" denoting message)
+
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY (Get the URL off Github, this clones a remote repositry to your local repositry.)
+
+git checkout -b (Branch-Name)

@@ -1,0 +1,44 @@
+#Essential Terraform Commands
+
+#Prerequisites:
+#Terraform is installed and configured
+#You have authenticated to the Cloud Environment I.E Azure
+
+#Connecting to Azure:
+az login
+
+#Verifying your Azure account:
+az account show
+
+#Formatting your Terraform code:
+terraform fmt <file_name.tf>
+#For example:
+terraform fmt DemoNet.tf
+
+#Initializing the Terraform environment:
+terraform init
+#This command downloads and installs the necessary providers and modules for your Terraform configuration.
+
+#Planning your infrastructure changes:
+terraform plan
+#This command shows you the changes that Terraform will make to your infrastructure if you apply the configuration.
+
+#Applying your infrastructure changes:
+terraform apply
+#This command creates or updates your infrastructure according to the planned changes.
+
+#Destroying your infrastructure:
+terraform apply -destroy
+#This command destroys the infrastructure that was created or managed by Terraform.
+
+#Viewing the Terraform state list of resources:
+terraform state list
+#This command lists all of the resources that are managed by Terraform.
+
+#Viewing more information about a resource:
+terraform state show <resource_type>.<resource_name>
+#For example:
+terraform state show azurerm_resource_group.RG-Network
+
+#Viewing the entire state of resources:
+terraform show
