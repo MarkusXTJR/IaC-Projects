@@ -1,0 +1,12 @@
+When starting a new space you will need to do the following to setup the environment
+
+Terraform Setup
+
+Run the below line by line in the bash terminal
+
+ wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+ sudo apt update && sudo apt install terraform
+
+
+
