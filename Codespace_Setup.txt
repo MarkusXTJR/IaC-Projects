@@ -5,7 +5,7 @@ VS Code Extensions
 - Terraform (Anton Kulikov)
 - Github Co-Pilot (Optional)
 - Github Co-Pilot Chat (Optional)
-- 
+- Github Theme (Optional for prefered syntax highlighting)
 
 Terraform Setup
 
