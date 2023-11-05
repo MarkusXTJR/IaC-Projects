@@ -37,9 +37,19 @@ Run the below line by line in the bash terminal (Run before staging files, if do
  git commit -m ""
  git push -u origin main
 
- #Improtant# Working in Codespace Environment
+#Improtant!# Working in Codespace Environment #Important!#
 
- 
+When pushing Terraform to Git Hub, the Terraform state file and provider registries should not be pushed. Only .tf files, scripts or other misc files. 
+(Not suitable for a long standing setup, only for dev testing)
+
+Lifecycle
+1. Run <terraform init> in the relevant directory i.e </tf_test_setup> 
+2. Use the infrastructure as needed for whatever you are doing. Run Terraform apply etc
+3. Destroy all resources <terraform destroy> (Ensure this is done) (can be verified with <terraform show>)
+4. Delete the following files & folders before staging changes. <.terraform/providers etc...)> <.terraform.lock.hcl> <terraform.tfstate> <terraform.tfstate.backup> 
+5. Do <git add .> <git commit -m "message"> <git push origin main>
+
+
 
  
 
