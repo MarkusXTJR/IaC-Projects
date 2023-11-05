@@ -5,6 +5,7 @@ VS Code Extensions
 - Terraform (Anton Kulikov)
 - Github Co-Pilot (Optional)
 - Github Co-Pilot Chat (Optional)
+- 
 
 Terraform Setup
 
@@ -14,5 +15,27 @@ Run the below line by line in the bash terminal
  echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
  sudo apt update && sudo apt install terraform
 
+
+Azure CLI Setup (used for login and authentication)
+
+Run the below line by line in the bash terminal
+ sudo apt update && sudo apt install azure-cli (Installation)
+ az --version (Verify Installation)
+ az login (Use link and type in authentication Code)
+ az account show (verify login)
+
+Git Large Files (For Large Files)
+
+Run the below line by line in the bash terminal (Run before staging files, if done by msitake remove them from staging, run the below, then stage again)
+ git lfs install
+ git lfs track "file_name"
+ git lfs push --all origin main
+ (Now ready for with files)
+ git add .
+ git commit -m ""
+ git push -u origin main
+
+
+ 
 
 
