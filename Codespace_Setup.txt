@@ -37,7 +37,7 @@ Run the below line by line in the bash terminal (Run before staging files, if do
  git commit -m ""
  git push -u origin main
 
-#Improtant!# Working in Codespace Environment #Important!#
+#Improtant!# Pushing to Github #Important!#
 
 When pushing Terraform to Git Hub, the Terraform state file and provider registries should not be pushed. Only .tf files, scripts or other misc files. 
 (Not suitable for a long standing setup, only for dev testing)
