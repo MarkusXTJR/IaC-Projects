@@ -14,3 +14,6 @@ git commit -m "Inital commit"
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY (Get the URL off Github, this clones a remote repositry to your local repositry.)
 
 git checkout -b (Branch-Name)
+
+git pull origin main 
+(pulls the most up to date main Branch)
