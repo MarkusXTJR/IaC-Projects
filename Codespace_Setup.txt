@@ -1,5 +1,7 @@
 When starting a new space you will need to do the following to setup the environment
 
+#Improtant, read before setting up#
+
 
 VS Code Extensions
 - Terraform (Anton Kulikov)
@@ -35,6 +37,9 @@ Run the below line by line in the bash terminal (Run before staging files, if do
  git commit -m ""
  git push -u origin main
 
+ #Improtant# Working in Codespace Environment
+
+ 
 
  
 
