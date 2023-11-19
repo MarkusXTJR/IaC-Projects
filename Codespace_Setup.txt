@@ -42,6 +42,8 @@ Run the below line by line in the bash terminal (Run before staging files, if do
 When pushing Terraform to Git Hub, the Terraform state file and provider registries should not be pushed. Only .tf files, scripts or other misc files. 
 (Not suitable for a long standing setup, only for dev testing)
 
+In production the state file should be stored in a protected location i.e terraform cloud and not within the general repositry
+
 Lifecycle
 1. Run <terraform init> in the relevant directory i.e </tf_test_setup> 
 2. Use the infrastructure as needed for whatever you are doing. Run Terraform apply etc
