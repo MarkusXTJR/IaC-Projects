@@ -1,0 +1,4 @@
+This project ties to the hands-on experience required for preparing for the AZ-104 Exam, 
+the aim is to work through all the exam objectives (listed in "exam_objectives.txt") 
+and implement the objective with hands on experience, code, scripts and IAC so it can be returned to at a later date. 
+
