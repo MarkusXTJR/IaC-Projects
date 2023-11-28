@@ -1,22 +1,22 @@
-variable "hv_host_username" {
-    description = "Username for hypervisor 01"
-    type        = string
-    sensitive   = true
-    default     = ""  #Declare here for ease #IMPORTANT! always delete before push to Github
+variable "vm_host_username" {
+  description = "Username for hypervisor 01"
+  type        = string
+  sensitive   = true
+  default     = "" #Declare here for ease #IMPORTANT! always delete before push to Github
 }
 
-variable "hv_host_password" {
-    description = "password for hypervisor 01"
-    type        = string
-    sensitive   = true
-    default = "" #Declare here for ease #IMPORTANT! always delete before push to Github
+variable "vm_host_password" {
+  description = "password for hypervisor 01"
+  type        = string
+  sensitive   = true
+  default     = "" #Declare here for ease #IMPORTANT! always delete before push to Github
 }
 
 variable "mypublicip" {
-    description = "Public IP for the VM"
-    type        = string
-    sensitive   = true
-    default     = "" #Declare here for ease #IMPORTANT! always delete before push to Github
+  description = "Public IP for the VM"
+  type        = string
+  sensitive   = true
+  default     = "" #Declare here for ease #IMPORTANT! always delete before push to Github
 }
 
 variable "tags" {

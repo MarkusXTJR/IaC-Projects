@@ -18,3 +18,17 @@ resource "azurerm_resource_group" "RG-STORAGE-TEST-UKSOUTH" {
 
   tags = var.tags
 }
+
+resource "azurerm_resource_group" "RG-CLIENTS-TEST-UKSOUTH" {
+  name     = "RG-CLIENTS-TEST-UKSOUTH"
+  location = var.uks
+
+  tags = var.tags
+}
+
+resource "azurerm_resource_group" "RG-BAS-TEST-UKSOUTH" {
+  name     = "RG-BAS-TEST-UKSOUTH"
+  location = var.uks
+
+  tags = var.tags
+}
